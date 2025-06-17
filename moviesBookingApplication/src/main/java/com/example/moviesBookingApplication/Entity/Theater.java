@@ -13,7 +13,7 @@ public class Theater {
     private  Long id;
     private String TheaterName;
     private String theaterLocation;
-    private  String theaterCapacity;
+    private  int theaterCapacity;
     private String theaterScreenType;
 
     @OneToMany(mappedBy = "theater", fetch = FetchType.LAZY)
